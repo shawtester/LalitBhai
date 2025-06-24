@@ -1,0 +1,38 @@
+/* Sway Animation */
+@keyframes sway {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
+  
+  .animate-sway {
+    animation: sway 3s infinite ease-in-out;
+  }
+
+  /* Collection Card Hover Effect */
+.collection-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .collection-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1); /* Add a shadow to give a floating effect */
+  }
+  
+  /* Hover Effect on Image */
+  .collection-image {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .collection-image:hover {
+    transform: scale(1.1); /* Zoom the image on hover */
+    filter: brightness(1.1); /* Slightly brighten the image */
+  }
+  
+  
