@@ -42,7 +42,7 @@ export default async function Home() {
 
     
    
-     <Collections collections={collections}/>
+     
      <Categories />
      <ProductsGridView />
      <Display/>
